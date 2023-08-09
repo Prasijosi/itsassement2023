@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM 2</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <td colspan="5">
+                <form method="post" name="register">
+                    <fieldset>
+                        <h3>HTML Form Test</h3>
+                        <label>Name</label>
+                        <input type="text" name="Name" required><br>
+                        <label> Address</label>
+                        <input type="text" name="Address" required><br>
+                        <label>Email</label>
+                        <input type="email" name="Email" required placeholder="abc@gmail.com" ><br>
+                        <label>Gender</label>
+                        <input type="radio" name="gender" value="male">Male
+                        <input type="radio" name="gender" value="female">Female
+                        <br>
+
+                        <label>Hobbies</label>
+                        <input type="checkbox" name="hobby" value="Sports"> Sports
+                        <input type="checkbox" name="hobby" value="Movies"> Movies
+                        <input type="checkbox" name="hobby"value="Travelling"> Travelling
+
+
+                        <br>
+                        <br>
+
+                        <label>Country</label><br>
+                        <select name="country" size="1">
+                            <option value="ind">India</option>
+                            <option value="npl" selected>Nepal</option>
+                            <option value="ch">China</option>
+                            <option value="bht">Bharat</option>
+                        </select>
+                        <br>
+
+                        <label>Message</label><br>
+                        <textarea rows="5" cols="50" name="message"></textarea><br>
+                        <input type="submit" name="Submit" value="Submit">
+                        <input type="reset" name="Reset" value="Reset">
+                    </fieldset>
+                </form>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
